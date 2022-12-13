@@ -1,0 +1,5 @@
+valor = float(input("Digite o valor da conta a pagar: "))
+notas = int(valor/50)
+resto = (valor%50)
+print("A quantidade de notas é: ", notas)
+print("O valor restante é: ", resto)
